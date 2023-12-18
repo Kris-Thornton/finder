@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className={'App-logo'}>
-      <img src={logo} className="App-header" alt="logo" />
+    <div className={'App-header'}>
+      <img src={logo} className="App-logo" alt="logo" />
       <h1>Finder</h1>
     </div>
   )
