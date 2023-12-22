@@ -37,6 +37,14 @@
   }
 }
 
+.header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: flex-end;
+  
+  /* justify-content: space-around; */
+  color: white;
+}
 
 .title-header {
   display: flex;
