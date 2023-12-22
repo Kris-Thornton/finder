@@ -1,15 +1,18 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Header from './header/header';
 
 function App() {
   return (
-    <div className={'App-header'}>
-      <header className={'title-header'}>
-        <h1>FIND-</h1><h1 className={'title-backend'}>ER</h1>
-      </header>
-      
-      <img src={logo} className="App-logo" alt="logo" />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />}>
+
+
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
