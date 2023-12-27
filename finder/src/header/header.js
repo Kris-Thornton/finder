@@ -6,11 +6,11 @@ function Header()  {
         <>
          <section >
             <div className={'header'}>
-                <h3>Home</h3>
-                <h3>Profile</h3>
-                <h3>Account</h3>
-                <h3>Settings</h3>
-                <h3>Find-ER Map</h3>
+                <h3 className={'headerWord'}>Home</h3>
+                <h3 className={'headerWord'}>Profile</h3>
+                <h3 className={'headerWord'}>Account</h3>
+                <h3 className={'headerWord'}>Settings</h3>
+                <h3 className={'headerWord'}>Find-ER Map</h3>
             </div>
         </section>
 
