@@ -1,8 +1,11 @@
 import React from "react";
-
+import { NavBar } from "../App";
 
 function Profile() {
     return (
+        <><NavBar />
+
+        
         <div className="background">
             <h1>
                 Profile page
@@ -21,6 +24,7 @@ function Profile() {
             </p>
             
         </div>
+        </>
     )
 }
 

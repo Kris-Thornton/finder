@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import logoMain from './logoMain.svg.png'
 import './App.css';
 import Profile from './components/profile';
-
+import Account from './components/account';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <NavBar />} /> 
           <Route path='/profile' element={ <Profile />} />
-
+          <Route path='/account' element={ <Account />} />
 
         
       </Routes>
@@ -20,14 +20,14 @@ function App() {
 }
 
 
-function NavBar(props) {
+export function NavBar() {
   return (
     <>
       <section >
     {/* FIND-ER Name and logo section in header */}
         <div className={'App-header'}>
           <header className={'title-header'}>
-            <h1>FIND-</h1><h1 className={'title-backend'}>ER</h1>
+            <h1>Find</h1><h1 className={'title-backend'}>ER</h1>
           </header>
         <img src={logoMain} className="App-logo" alt="logo" />
 
@@ -40,8 +40,10 @@ function NavBar(props) {
             <Link to='/profile'>
               <h3 className={'headerWord'}>Profile</h3>
             </Link>
-
-            <h3 className={'headerWord'}>Account</h3>
+            <Link to='/account'>
+              <h3 className={'headerWord'}>Account</h3>
+            </Link>
+            
             <h3 className={'headerWord'}>Settings</h3>
             <h3 className={'headerWord'}>Find-ER Map</h3>
 
