@@ -3,6 +3,9 @@ import logoMain from './logoMain.svg.png'
 import './App.css';
 import Profile from './components/profile';
 import Account from './components/account';
+import Settings from './components/settings';
+import FinderMap from './components/finderMap';
+
 
 
 function App() {
@@ -12,8 +15,8 @@ function App() {
         <Route path="/" element={ <NavBar />} /> 
           <Route path='/profile' element={ <Profile />} />
           <Route path='/account' element={ <Account />} />
-
-        
+          <Route path='/settings' element={ <Settings />} />
+          <Route path='/finderMap' element={ <FinderMap />} />
       </Routes>
     </BrowserRouter>
   )
@@ -43,9 +46,13 @@ export function NavBar() {
             <Link to='/account'>
               <h3 className={'headerWord'}>Account</h3>
             </Link>
+            <Link to='/settings'>
+              <h3 className={'headerWord'}>Settings</h3>
+            </Link>
+            <Link to='/finderMap'>
+              <h3 className={'headerWord'}>Find-ER Map</h3>
+            </Link>
             
-            <h3 className={'headerWord'}>Settings</h3>
-            <h3 className={'headerWord'}>Find-ER Map</h3>
 
           </div>
         </div>

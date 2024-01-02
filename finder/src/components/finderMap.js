@@ -1,14 +1,14 @@
 import React from "react";
 import { NavBar } from "../App";
 
-function Account() {
+function FinderMap() {
     return (
         <><NavBar />
 
         
         <div className="background">
             <h1>
-                Account page
+                Finder Map page
             </h1>
             <p>
                hjdgfhjgfhjdgfhjdghjdgf
@@ -19,4 +19,4 @@ function Account() {
     )
 }
 
-export default Account;
+export default FinderMap;
