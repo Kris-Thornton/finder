@@ -75,3 +75,11 @@
 .background {
   background-color: antiquewhite;
 }
+
+
+/* Finder map page */
+
+.map {
+  display: flex;
+  justify-content: center;
+}

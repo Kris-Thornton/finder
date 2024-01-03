@@ -1,5 +1,7 @@
 import React from "react";
 import { NavBar } from "../App";
+import DigitalMap from '../Digital-map-image.jpg';
+
 
 function FinderMap() {
     return (
@@ -11,8 +13,9 @@ function FinderMap() {
                 Finder Map page
             </h1>
             <p>
-               hjdgfhjgfhjdgfhjdghjdgf
+                The page will show map coordinations of registered devices connected to profiles on the account. Such as phone, Tag, bracelet ect for child, elderly or pet.
             </p>
+            <img src={DigitalMap} className="map"/>
             
         </div>
         </>
