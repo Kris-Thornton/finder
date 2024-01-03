@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import logoMain from './logoMain.svg.png'
+import logoMain from './images/logoMain.svg.png'
 import './App.css';
 import Profile from './components/profile';
 import Account from './components/account';
